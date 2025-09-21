@@ -1,0 +1,10 @@
+artifact_location: file:///F:/PROJECTS_2025/ZNetwork/mlruns/0/models/m-0573e3aa1a2643eb97bf3b7ba63b8de6/artifacts
+creation_timestamp: 1758462554364
+experiment_id: '0'
+last_updated_timestamp: 1758462560266
+model_id: m-0573e3aa1a2643eb97bf3b7ba63b8de6
+model_type: null
+name: model
+source_run_id: 279a8a419e824d83befdb669ff62373f
+status: 2
+status_message: null

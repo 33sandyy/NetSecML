@@ -23,7 +23,8 @@ from sklearn.ensemble import (
 import mlflow
 
 import dagshub
-token = os.environ.get("DAGSHUB_USER_TOKEN")
+# token = os.environ.get("DAGSHUB_USER_TOKEN")
+token="5bc4dc81386e0549f04169e5c92e8da44c5ed274"
 
 dagshub.auth.add_app_token(token)
 

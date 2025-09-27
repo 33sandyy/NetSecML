@@ -10,5 +10,5 @@ mlflow==2.2.2
 dagshub
 fastapi
 uvicorn
-
+python-multipart
 # -e .

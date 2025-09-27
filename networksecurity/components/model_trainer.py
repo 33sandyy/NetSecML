@@ -23,6 +23,10 @@ from sklearn.ensemble import (
 import mlflow
 
 import dagshub
+token = os.environ.get("DAGSHUB_USER_TOKEN")
+if token:
+    dagshub.auth.add_app_token(token)
+    
 dagshub.init(repo_owner='33sandyy', 
              repo_name='NetSecML',
              mlflow=True

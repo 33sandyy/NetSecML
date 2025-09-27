@@ -82,7 +82,8 @@ jobs:
 
       - name: Pull latest images
         run: |
-         docker pull 036529217910.dkr.ecr.us-east-1.amazonaws.com/netsecml:latest
+         docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
+         
          
       #- name: Stop and remove  container if running
        # run: |
